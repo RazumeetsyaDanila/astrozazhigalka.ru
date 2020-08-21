@@ -1,0 +1,138 @@
+hr {
+    max-width: 10vw;
+    border: 1px solid #ffab29;
+    padding-top: 0;
+}
+
+input[type=radio]{
+    transform: scale(1.3);
+}
+
+body{
+    background-color: #FFF1DC;
+}
+
+.QuestionContainer{
+    background: #FDD08B;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    margin-top: 15px ;
+    border: 3px solid #ffab29;
+}
+
+.QuestionContainer2{
+    background: #6395F2;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    margin-top: 15px ;
+    border: 3px solid #1258DC;
+}
+
+.TestContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align:center;
+}
+
+.ResultContainer{
+    background: #FDD08B;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    margin-top: 15px ;
+    border: 3px solid #ffab29;
+    margin-top: 10vh;
+    font-size: 20px;
+}
+
+.StartContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align:center;
+    margin-top: 0;
+}
+
+.authorship{
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+    color: #FC7307;
+}
+
+.submitbtn, .resultbtn{
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #FC7307;
+    color: white;
+    padding: 16px 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+}
+
+.submitbtn span, .resultbtn span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.submitbtn span:after, .resultbtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.submitbtn:hover span, .resultbtn:hover span {
+    padding-right: 15px;
+}
+
+.submitbtn:hover span:after, .resultbtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.resultbtn{
+    width: 100%;
+}
+
+.TestName{
+    font-size: 36px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: 'Amatic SC', cursive;
+    color: #FC7307;
+}
+
+
+@media (max-width: 600px) {
+    hr{
+        max-width: 30%;
+    }
+    .TestContainer{
+        width: 90%;
+    }
+    .StartContainer{
+        width: 90%;
+    }
+    .authorship{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 350px) {
+    .StartContainer{
+        margin-top: 2vh;
+    }
+    .authorship{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,119 @@
+/*фон #F7CACA*/
+/*контейнер варианта ответа #F09999*/
+/*контейнер вопроса #E75F5F*/
+/*рамка #943D3D*/
+body{
+    background-color: #F7CACA;
+}
+
+hr {
+    max-width: 10vw;
+    border: 1px solid #943D3D;
+    margin-bottom: 20px;
+}
+
+input[type=radio], input[type=checkbox]{
+    transform: scale(1.4);
+    margin-right: 8px;
+}
+
+.AnswerContainer{
+    background: #F09999;
+    margin: 15px ;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    font-size: 16px;
+    text-align: justify;
+}
+.AnswerContainer:hover{
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+.AnswerContainerLabel{
+    display: inline-block;
+    width: 20%;
+    margin-bottom: 8px;
+}
+.AnswerContainerLabel:hover{
+    cursor: pointer;
+}
+
+.QuestionContainer{
+    background: #E75F5F;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px ;
+    border: 3px solid #943D3D;
+    font-family: 'Oswald', sans-serif;
+}
+.question{
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    margin: 10px;
+}
+
+.TestContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align:center;
+}
+
+.TestName{
+    font-size: 36px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: 'Oswald', sans-serif;
+    color: #943D3D;
+}
+
+.ResultContainer{
+    font-family: 'Oswald', sans-serif;
+    background: #E75F5F;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    margin-top: 30vh;
+    border: 3px solid #943D3D;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 18em;
+}
+
+.resultbtn, .submitbtn{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 6px;
+    background-color: #943D3D;
+    color: #F7CACA;
+    padding: 10px 16px 12px 16px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.resultbtn:hover, .submitbtn:hover{
+    background-color: #B94C4C;
+}
+
+@media (max-width: 600px) {
+    hr{
+        max-width: 30%;
+    }
+    .TestContainer{
+        width: 95%;
+    }
+
+    .AnswerContainerLabel{
+        width: 80%;
+    }
+
+    .ResultContainer{
+        width: 100%;
+    }
+
+}
+

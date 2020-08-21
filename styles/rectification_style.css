@@ -1,0 +1,140 @@
+body{
+    background-color: #DEE9FC;
+}
+
+hr {
+    max-width: 10vw;
+    border: 1px solid #1258DC;
+    padding-top: 0;
+}
+
+.TestContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align:center;
+}
+
+.QuestionContainer{
+    background: #6395F2;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    margin-top: 15px ;
+    border: 3px solid #1258DC;
+}
+
+.ResultContainer{
+    background: #6395F2;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    margin-top: 15px ;
+    border: 3px solid #1258DC;
+    margin-top: 16vh;
+    font-size: 20px;
+}
+
+.StartContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align:center;
+    margin-top: 10vh;
+}
+
+.TestName{
+    font-size: 36px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: 'Amatic SC', cursive;
+    color: #1258DC;
+}
+
+.authorship{
+    font-size: 18px;
+    font-family: 'Amatic SC', cursive;
+    color: #1258DC;
+}
+
+.submitbtn, .resultbtn{
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: #1258DC;
+    color: white;
+    padding: 16px 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+}
+
+.submitbtn span, .resultbtn span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.submitbtn span:after, .resultbtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.submitbtn:hover span, .resultbtn:hover span {
+    padding-right: 15px;
+}
+
+.submitbtn:hover span:after, .resultbtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+/*----------------------------------------- Стили для всех input элементов -------------------------------------------*/
+input[type=text], input[type=number] ,input[type=date], select, textarea{
+    width: 32px;
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    display: inline-block;
+    border: none;
+    background: #8EB2F6;
+    border-radius: 4px;
+}
+
+/* Добавляет затемнение при заполнении формы*/
+input[type=text]:focus, input[type=password]:focus , input[type=number]:focus, input[type=date]:focus , select:focus, textarea:focus{
+    background-color: #76A2F4;
+    outline: none;
+
+}
+
+input[type=radio]{
+    transform: scale(1.3);
+}
+
+/*--------------------------------------- *Стили для всех input элементов* -------------------------------------------*/
+
+
+@media (max-width: 600px) {
+    hr{
+        max-width: 30%;
+    }
+    .TestContainer{
+        width: 90%;
+    }
+    .StartContainer{
+        width: 90%;
+    }
+}
+
+@media (max-width: 330px) {
+    .StartContainer{
+        margin-top: 2vh;
+    }
+}

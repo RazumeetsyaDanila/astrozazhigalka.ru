@@ -1,0 +1,197 @@
+body{
+    background-color: #FFF1DC;
+}
+
+.authorship{
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
+    color: #FC7307;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+}
+
+.ChoiceDescription{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0 12px 0 12px;
+}
+
+.StartContainer{
+    display: flex;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+/*---------------- Стили для ректификации -----------------*/
+.ChoiceContainer_1{
+    background: #6B9DF0;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6vh;
+    width: 330px;
+    height: 270px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.ChoiceContainer_1:hover{
+    box-shadow: 0 0 8px rgba(255,255,255,1);
+}
+
+.ChoiceName_1{
+    font-size: 14px;
+    font-family: 'Amatic SC', cursive;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.choice_btn_1{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 6px;
+    background-color: #1258DC;
+    color: #FFFFFF;
+    padding: 10px 30px 14px 30px;
+    border: none;
+    cursor: pointer;
+}
+.choice_btn_1:hover{
+    background-color: #3573E8;
+}
+.div_choice_btn_1{
+    display: flex;
+    justify-content: center;
+
+}
+
+/*---------------- Стили для диагностики планет -----------------*/
+.ChoiceContainer_2{
+    background: #fa9342;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6vh;
+    width: 320px;
+    height: 270px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.ChoiceContainer_2:hover{
+    box-shadow: 0 0 8px rgba(255,255,255,1);
+}
+
+.ChoiceName_2{
+    font-size: 14px;
+    font-family: 'Amatic SC', cursive;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+.choice_btn_2{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 6px;
+    background-color: #FC7307;
+    color: #FFFFFF;
+    padding: 10px 30px 14px 30px;
+    border: none;
+    cursor: pointer;
+}
+.choice_btn_2:hover{
+    background-color: #F0812A;
+}
+.div_choice_btn_2{
+    display: flex;
+    justify-content: center;
+}
+
+/*---------------- Стили для заявки таро -----------------*/
+.ChoiceContainer_3{
+    background: #e75f5f;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    height: 270px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.ChoiceContainer_3:hover{
+    box-shadow: 0 0 8px rgba(255,255,255,1);
+}
+
+.ChoiceName_3{
+    font-size: 14px;
+    font-family: 'Amatic SC', cursive;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.choice_btn_3{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 6px;
+    background-color: #943D3D;
+    color: #FFFFFF;
+    padding: 10px 30px 14px 30px;
+    border: none;
+    cursor: pointer;
+}
+.choice_btn_3:hover{
+    background-color: #B94C4C;
+}
+.div_choice_btn_3{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1050px) {
+    .StartContainer{
+        display: inline;
+    }
+
+    .authorship{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .authorship{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .StartContainer{
+        display: inline;
+    }
+
+}
+
+@media (max-width: 330px) {
+    .ChoiceContainer_1, .ChoiceContainer_2, .ChoiceContainer_3{
+        width: 300px;
+        height: 240px;
+    }
+    .ChoiceDescription{
+        font-size: 16px;
+    }
+}
