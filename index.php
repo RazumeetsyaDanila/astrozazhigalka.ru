@@ -30,10 +30,6 @@
                     После прохождения теста скопируйте результат с помощью соответсвующей кнопки
                     и отправьте его сообщением в любом удобном вам месседжере.
                 </p>
-
-                <!--<div class="div_choice_btn_1">
-                    <button class="choice_btn_1" onClick='location.href="rectification.php"'>Начать</button>
-                </div>-->
             </div>
             <!-------------------------------------------------->
             <div class="ChoiceContainer_2" onclick='location.href="diagnostics_of_planets.php"'>
@@ -45,10 +41,6 @@
                     Для проведения диагностики, необходимо ответить на все вопросы. После прохождения теста скопируйте результат или сделайте скриншот
                     и отправьте его сообщением в любом удобном вам месседжере.
                 </p>
-
-                <!--<div class="div_choice_btn_2">
-                    <button class="choice_btn_2" onClick='location.href="diagnostics_of_planets.php"'>Начать</button>
-                </div>-->
             </div>
             <!-------------------------------------------------->
             <div class="ChoiceContainer_3" onclick='location.href="tarot_request.php"'>
@@ -61,10 +53,6 @@
                     скопируйте результат с помощью соответсвующей кнопки
                     и отправьте его сообщением в любом удобном вам месседжере.
                 </p>
-
-                <!--<div class="div_choice_btn_3">
-                    <button class="choice_btn_3" onClick='location.href="tarot_request.php"'>Начать</button>
-                </div>-->
             </div>
             
             
