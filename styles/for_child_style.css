@@ -1,0 +1,53 @@
+body{
+    background-color: #FFF1DC;
+}
+
+
+.DescriptionContainer{
+    background: #FDD08B;
+    border-radius: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    border: 3px solid #ffab29;
+    font-family: 'Oswald', sans-serif;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    text-align: justify;
+}
+
+.ForChildTitle{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 6vh;
+    margin-bottom: 2vh;
+    font-family: 'Amatic SC', cursive;
+    color: #FC7307;
+}
+
+.backbtn{
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 6px;
+    background-color: #FC7307;
+    color: #fde8b3;
+    padding: 10px 16px 12px 16px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.ForChildBackbtn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 76px;
+}
+
+@media (min-width: 1050px) {
+    .DescriptionContainer{
+        width: 40%;
+    }
+}

@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb71e94c-299b-4690-bbfd-ba893dfb98f6" name="Default Changelist" comment="" />
+    <list default="true" id="eb71e94c-299b-4690-bbfd-ba893dfb98f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/analysis_natal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/for_child.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hear_yes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/analysis_natal_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/for_child_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/hear_yes_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/solar_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagnostics_of_planets.php" beforeDir="false" afterPath="$PROJECT_DIR$/diagnostics_of_planets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/diagnostics_of_planets_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/diagnostics_of_planets_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/index_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/index_style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +27,27 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fzhDNx0aWuwfTgRgxXcHzzfCPC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../React Projects/anti-social-social-network" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -45,10 +76,39 @@
       <workItem from="1597398649691" duration="19280000" />
       <workItem from="1597487261447" duration="7742000" />
       <workItem from="1597508825914" duration="581000" />
+      <workItem from="1620158669906" duration="40000" />
+      <workItem from="1620158814177" duration="60000" />
+      <workItem from="1620159081562" duration="1096000" />
+      <workItem from="1620222191871" duration="3903000" />
+      <workItem from="1620237069581" duration="4704000" />
+      <workItem from="1620242162456" duration="3318000" />
+      <workItem from="1620409508549" duration="31000" />
+      <workItem from="1621011241041" duration="4322000" />
+      <workItem from="1621503365809" duration="1742000" />
+      <workItem from="1634467929487" duration="1798000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1620409537701">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1620409537701" />
   </component>
 </project>

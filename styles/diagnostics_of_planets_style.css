@@ -1,6 +1,20 @@
+/*
+старые цвета:
+граница контейнера - #ffab29
+фон контейнера - #FDD08B
+общий фон - #FFF1DC
+кнопка и заголовки- #FC7307
+
+новые цвета:
+граница контейнера - #c361ff
+фон контейнера - #e0aaff
+общий фон - #f1d2ff
+кнопка и заголовки - #7b2cbf
+ */
+
 hr {
     max-width: 10vw;
-    border: 1px solid #ffab29;
+    border: 1px solid #c361ff;
     padding-top: 0;
 }
 
@@ -9,17 +23,18 @@ input[type=radio]{
 }
 
 body{
-    background-color: #FFF1DC;
+    background-color: #f1d2ff;
 }
 
 .QuestionContainer{
-    background: #FDD08B;
+    background: #e0aaff;
     border-radius: 10px;
     padding-top: 4px;
     padding-bottom: 10px;
     margin-top: 15px ;
-    border: 3px solid #ffab29;
+    border: 3px solid #c361ff;
 }
+
 
 .QuestionContainer2{
     background: #6395F2;
@@ -38,12 +53,12 @@ body{
 }
 
 .ResultContainer{
-    background: #FDD08B;
+    background: #e0aaff;
     border-radius: 10px;
     padding-top: 4px;
     padding-bottom: 10px;
     margin-top: 15px ;
-    border: 3px solid #ffab29;
+    border: 3px solid #c361ff;
     margin-top: 10vh;
     font-size: 20px;
 }
@@ -59,13 +74,13 @@ body{
 .authorship{
     font-family: 'Amatic SC', cursive;
     font-size: 18px;
-    color: #FC7307;
+    color: #7b2cbf;
 }
 
 .submitbtn, .resultbtn{
     font-size: 16px;
     border-radius: 6px;
-    background-color: #FC7307;
+    background-color: #7b2cbf;
     color: white;
     padding: 16px 20px;
     margin-top: 20px;
@@ -109,7 +124,7 @@ body{
     margin-top: 6px;
     margin-bottom: 6px;
     font-family: 'Amatic SC', cursive;
-    color: #FC7307;
+    color: #7b2cbf;
 }
 
 

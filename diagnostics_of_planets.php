@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta http-equiv="Cache-Control" content="no-cache"/>
-    <link rel="stylesheet" href="styles/diagnostics_of_planets_style.css?v.1.0.4">
+    <link rel="stylesheet" href="styles/diagnostics_of_planets_style.css?v.1.0.5">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <script src="scripts/questions.js?v.1.0.12"></script>
@@ -18,7 +18,7 @@
 <!----------------------------------------------- Диагностика Луны ---------------------------------------------------->
     <div id="test_1" style="display:block;">
         <div class="me" >
-            <img class="photo" src="img/2photo(new).jpg" style="border: 2px solid #ffab29">
+            <img class="photo" src="img/2photo(new).jpg" style="border: 2px solid #c361ff">
         </div>
         <p class="TestName"><span class="TestName" id="test_name_1"></span></p>
 
@@ -43,7 +43,7 @@
 <!---------------------------------------------- Диагностика Солнца --------------------------------------------------->
     <div id="test_2" style="display:none;">
         <div class="me" >
-            <img class="photo" src="img/3photo(new).jpg" style="border: 2px solid #ffab29">
+            <img class="photo" src="img/3photo(new).jpg" style="border: 2px solid #c361ff">
         </div>
         <p class="TestName"><span id="test_name_2"></span></p>
 
@@ -67,7 +67,7 @@
 <!--------------------------------------------- Диагностика Сатурна --------------------------------------------------->
     <div id="test_3" style="display:none;">
         <div class="me" >
-            <img class="photo" src="img/4photo(new).jpg" style="border: 2px solid #ffab29">
+            <img class="photo" src="img/4photo(new).jpg" style="border: 2px solid #c361ff">
         </div>
         <p class="TestName"><span id="test_name_3"></span></p>
 
@@ -91,7 +91,7 @@
 <!--------------------------------------------- Диагностика Венеры ---------------------------------------------------->
     <div id="test_4" style="display:none;">
         <div class="me" >
-            <img class="photo" src="img/5photo(new).jpg" style="border: 2px solid #ffab29">
+            <img class="photo" src="img/5photo(new).jpg" style="border: 2px solid #c361ff">
         </div>
         <p class="TestName"><span id="test_name_4"></span></p>
 
@@ -115,7 +115,7 @@
 <!-------------------------------------------- Диагностика Меркурия --------------------------------------------------->
     <div id="test_5" style="display:none;">
         <div class="me" >
-            <img class="photo" src="img/6photo(new).jpg" style="border: 2px solid #ffab29">
+            <img class="photo" src="img/6photo(new).jpg" style="border: 2px solid #c361ff">
         </div>
         <p class="TestName"><span id="test_name_5"></span></p>
 
@@ -139,7 +139,7 @@
 <!---------------------------------------------- Диагностика Марса ---------------------------------------------------->
     <div id="test_6" style="display:none;">
         <div class="me" >
-            <img class="photo" src="img/7photo(new).jpg" style="border: 2px solid #ffab29">
+            <img class="photo" src="img/7photo(new).jpg" style="border: 2px solid #c361ff">
         </div>
         <p class="TestName"><span id="test_name_6"></span></p>
 
@@ -163,7 +163,7 @@
 <!--------------------------------------------- Диагностика Юпитера --------------------------------------------------->
     <div id="test_7" style="display:none;">
         <div class="me" >
-            <img class="photo" src="img/8photo(new).jpg" style="border: 2px solid #ffab29">
+            <img class="photo" src="img/8photo(new).jpg" style="border: 2px solid #c361ff">
         </div>
         <p class="TestName"><span id="test_name_7"></span></p>
 
@@ -207,7 +207,7 @@
         </div>
     </div>
 
-    <!--<button class="submitbtn" id="btn_share" onclick="copy_in_buffer('#ResultContainer')" style="display: none"><span>Копировать</span></button>-->
+    <button class="submitbtn" id="btn_share" onclick="copy_in_buffer('#ResultContainer')"  style="display: none"><span>Копировать</span></button>
     <button class="submitbtn" id="btn_exit" onclick="location.href='index.php'" style="display: none; width: 45%"><span>Начать заново</span></button>
 
     <div class="ResultContainer" id="CopyInstruction" style="display: none">
@@ -278,7 +278,7 @@
         document.getElementById('btn_exit').style.display = "inline-block";
         document.getElementById('ResultContainer').style.display = "block";
         document.getElementById('CopyInstruction').style.display = "none";
-        /*document.getElementById('btn_share').style.display = "inline-block";*/
+        document.getElementById('btn_share').style.display = "inline-block";
 
         //массив с результатами за каждый тест
         let result_test = [];
